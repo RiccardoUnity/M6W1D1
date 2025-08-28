@@ -13,7 +13,7 @@ public class SaveSystemEs2 : MonoBehaviour
     void Awake()
     {
         _playerSave = new PlayerSave();
-        _path = Application.dataPath + "/save.txt";
+        _path = Application.persistentDataPath + "/save.txt";
         Debug.Log(_path);
     }
 
